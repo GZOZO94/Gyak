@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "description": "api",
+  "main": "app.js",
+  "scripts": {
+	"start": "node mqtt_hello.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "ZOZO",
+  "license": "MIT"
+}

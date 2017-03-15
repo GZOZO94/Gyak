@@ -4,7 +4,7 @@
   "description": "api",
   "main": "app.js",
   "scripts": {
-	"start": "node mqtt_hello.js"
+	"start": "mqtt_hello.js"
   },
   "keywords": [
     "api"

@@ -8,6 +8,7 @@ var server = http.createServer(function(request,response){
 server.listen(4242);*/
 var express=require('express'),
 	app=express();
+var port = process.env.PORT || 3000;
 	
 app.get("/", function(request,response){
 	response.sendfile("index.html");
@@ -21,5 +22,6 @@ app.get("/:user/send", function(request,response){
 	response.send("send"+request.params.user + "     "+ request.query.query);
 });
 
-app.listen(3000);
-console.log('Server is running');
+app.listen(port, function(){
+	console.log('Server is running');
+});

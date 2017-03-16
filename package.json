@@ -1,28 +1,17 @@
 {
-  "name": "node",
+  "name": "server",
   "version": "0.0.1",
-  "description": "api",
+  "description": "deploying node js to heroku platform",
   "main": "app.js",
+  "author": {
+    "name": "zozo",
+    "email": "gaszol11.c@gmail.com"
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
   "dependencies": {
-    "express": "^4.15.2",
-    "http": "^0.0.0",
-    "sys": "^0.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GZOZO94/Gyak.git"
-  },
-  "keywords": [
-    "api"
-  ],
-  "author": "Zzozo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GZOZO94/Gyak/issues"
-  },
-  "homepage": "https://github.com/GZOZO94/Gyak#readme"
+    "express": "4.13.x"
+  }
 }

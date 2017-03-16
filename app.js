@@ -21,5 +21,5 @@ app.get("/:user/send", function(request,response){
 	response.send("send"+request.params.user + "     "+ request.query.query);
 });
 
-app.listen(8080);
+app.listen(3000);
 console.log('Server is running');
